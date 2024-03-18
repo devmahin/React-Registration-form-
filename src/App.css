@@ -3,4 +3,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+form{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+form> input,button{
+  padding: 10px;
+}
+
+.modalBox{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  
+}
+
+.modal{
+  width: 700px;
+  height: 400px;
+  background-color: rgb(204, 192, 192);
+  border-radius: 10px;
+}
+.flexy{
+  display: flex;
 }
